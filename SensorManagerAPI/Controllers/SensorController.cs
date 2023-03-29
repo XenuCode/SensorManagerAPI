@@ -14,7 +14,7 @@ public class SensorController : ControllerBase
         MySql.Data.MySqlClient.MySqlConnection conn;
         string myConnectionString;
 
-        myConnectionString = ;
+        myConnectionString;
         conn = new MySql.Data.MySqlClient.MySqlConnection(myConnectionString);
         conn.Open();
         
