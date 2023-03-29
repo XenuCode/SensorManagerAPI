@@ -14,8 +14,7 @@ public class SensorController : ControllerBase
         MySql.Data.MySqlClient.MySqlConnection conn;
         string myConnectionString;
 
-        myConnectionString = "server=127.0.0.1;uid=root;" +
-                             "pwd=;database=test";
+        myConnectionString = ;
         conn = new MySql.Data.MySqlClient.MySqlConnection(myConnectionString);
         conn.Open();
         
